@@ -1,0 +1,117 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.article-content>p {
+  margin-top: 24px;
+}
+
+.article-content>ul {
+  list-style-type: disc;
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.hide-scrollbar {
+  -ms-overflow-style: none;
+  /* IE and Edge */
+  scrollbar-width: none;
+  /* Firefox */
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+/* custom css */
+.watchlist-item {
+  border-bottom: solid 1px #4D4949;
+}
+.css-5s5g02-MuiButtonBase-root-MuiButton-root{
+  font-size: 14px!important;
+}
+
+.box-shadow {
+	box-shadow: 0px 0px 2px 2px rgb(30 105 255 / 10%), 0px 0px 2px 0px rgb(30 105 255 / 10%);
+}
+.all-center{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.swiper-slide img{
+  filter: brightness(100%)!important;
+}
+.css-cyxlny-MuiPaper-root-MuiDialog-paper{
+  border-radius: 21px!important;
+}
+.swiper-pagination-bullets{
+  margin-bottom: 12px;
+}
+.article-content p{
+  font-size: 16px;
+}
+
+@media only screen and (max-width: 624px) {
+  .main-nav{
+    position: fixed;
+    height: 100vh;
+    display: block;
+    transition: 1s;
+    padding: 20px
+  }
+  .nav-hide{
+    transform: translate(-100%);
+  }
+}
+
+/* .watchlist-item:last-child{
+  border-bottom:none;
+} */
+
+.bulletin.text-gray-500 {
+  color:#8E8E93 !important;
+}
+
+.trending-trades.text-gray-500 {
+  color:#072D4B;
+  font-weight: 300;
+}
+.cluster-card.text-sm {
+  font-weight: 300;
+}

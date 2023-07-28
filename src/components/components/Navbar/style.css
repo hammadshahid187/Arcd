@@ -1,0 +1,8 @@
+.enterprise-search {
+    background: rgba(211, 216, 238, 0.55);
+}
+
+.enterprise-search::placeholder {
+    color: #262626;
+    background: transparent;
+}

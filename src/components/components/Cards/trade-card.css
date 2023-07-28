@@ -1,0 +1,8 @@
+.devil {
+    max-width: 42px;
+    height: 26px;
+}
+
+.devil.selected {
+    border: 2px solid #82D9FF;
+}
